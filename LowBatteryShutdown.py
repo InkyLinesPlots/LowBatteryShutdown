@@ -26,7 +26,7 @@ GPIO.setmode(GPIO.BCM)
 shutdown_pin = 16  # defines pin 16 as the pin we're watching
 GPIO.setup(shutdown_pin, GPIO.IN, pull_up_down = GPIO.PUD_DOWN)
 
-def shutdown_callback_function( shutdown_pin ):
+def shutdown_callback_function(  ):
 
     # uncomment the following line to have the Pi tell you that the pin is
     # HIGH and that the callback function has been entered. This is mostly
